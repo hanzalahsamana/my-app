@@ -5,7 +5,7 @@ import { Menu, Transition } from '@headlessui/react'
 
 function Navbar() {
     return (
-        <div className="Navbar  w-4/5 ">
+        <div className="Navbar  w-5/5 ">
             <div  class="flex items-center border-b	border-blue-400 border-solid">
                 <div style={{width:"80%"}} class="rounded overflow-hidden   ">
                     <div class="md:flex">
@@ -14,7 +14,7 @@ function Navbar() {
                                 <span class="absolute flex h-full	items-center left-4 ">  <FontAwesomeIcon style={{ color: "#0000ffa3" }} icon={faSearch} /> </span>
                                 <span class="absolute flex h-full items-center right-4">  <FontAwesomeIcon style={{ color: "#0000ffa3" }} icon={faSlidersH} /> </span>
 
-                                <input type="text" class="bg-white h-10 border border-blue-400 border-solid placeholder-blue-400 w-full px-12 text-blue-400	 rounded-full focus:outline-none hover:cursor-pointer" placeholder='search topic, book, video, idea, talent, podcast' />
+                                <input type="text" class="bg-white h-10 border border-blue-400 border-solid placeholder-blue-400 w-full px-12 text-blue-400	 rounded-full focus:outline-none " placeholder='search topic, book, video, idea, talent, podcast' />
 
 
                             </div>

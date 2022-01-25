@@ -1,12 +1,13 @@
 import react from 'react'
 import FirstHalf from '../../components/FirstHalf/firstHalf';
-import Navbar from '../../components/Header/header';
+import SecondHalf from '../../components/SecondHalf/secondhalf';
+
 
 function HomePage() {
   return (
     <div className="flex">
         <FirstHalf />
-    <Navbar />
+        <SecondHalf />
     </div>
   );
 }

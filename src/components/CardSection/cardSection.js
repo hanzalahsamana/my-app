@@ -5,7 +5,7 @@ import LogoSection from '../LogoSection/logoSection';
 
 function CardSection() {
     return (
-        <div className="w-full justify-center flex items-center	relative">
+        <div className="w-full bg-gray-200  justify-center flex relative" style={{height:"470px"}}>
            <LogoSection />
             <Cards />
         </div>
