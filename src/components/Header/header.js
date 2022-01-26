@@ -1,4 +1,4 @@
-import { faSearch, faSlidersH, faImage, faComment , faArrowDown} from '@fortawesome/free-solid-svg-icons'
+import { faSearch, faSlidersH, faImage, faComment, faArrowDown } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Fragment } from 'react'
 import { Menu, Transition } from '@headlessui/react'
@@ -6,8 +6,8 @@ import { Menu, Transition } from '@headlessui/react'
 function Navbar() {
     return (
         <div className="Navbar  w-5/5 ">
-            <div  class="flex items-center border-b	border-blue-400 border-solid">
-                <div style={{width:"80%"}} class="rounded overflow-hidden   ">
+            <div class="flex items-center border-b	border-blue-400 border-solid">
+                <div style={{ width: "80%" }} class="rounded overflow-hidden   ">
                     <div class="md:flex">
                         <div class="w-full p-3">
                             <div class="relative border-blue-400">
@@ -22,14 +22,14 @@ function Navbar() {
                     </div>
                 </div>
 
-                <div style={{width:"20%"}} className='flex items-center justify-around '>
-                  
-                    <span className="ml-3 ">  <FontAwesomeIcon style={{ color: "#0000ffa3" , width:"23px" , height:"23px" }} icon={faImage} /> </span>
-                    <span className="ml-3 ">  <FontAwesomeIcon style={{ color: "#0000ffa3" , width:"23px" , height:"23px"  }} icon={faComment} /> </span>
+                <div style={{ width: "20%" }} className='flex items-center justify-around '>
+
+                    <span className="ml-3 ">  <FontAwesomeIcon style={{ color: "#0000ffa3", width: "23px", height: "23px" }} icon={faImage} /> </span>
+                    <span className="ml-3 ">  <FontAwesomeIcon style={{ color: "#0000ffa3", width: "23px", height: "23px" }} icon={faComment} /> </span>
 
                     <Menu as="div" className="ml-3 relative">
-                        <div style={{padding:"4px 4px 4px 4px", width:"80px"}} className='flex rounded-full bg-blue-200 justify-around items-center border border-blue-400 border-solid'>
-                            <Menu.Button className="bg-gray-800 flex text-sm justify-around rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
+                        <div style={{ padding: "4px 4px 4px 4px", width: "80px" }} className='flex rounded-full bg-blue-200 justify-around items-center border border-blue-400 border-solid'>
+                            <Menu.Button className="flex text-sm justify-around rounded-full focus:outline-none  focus:ring-white">
                                 <span className="sr-only">Open user menu</span>
                                 <img
                                     className="h-8 w-8 rounded-full"
@@ -39,13 +39,9 @@ function Navbar() {
 
                             </Menu.Button>
 
-                    <FontAwesomeIcon style={{ color: "blue"  }} icon={faArrowDown} />
+                            <FontAwesomeIcon style={{ color: "blue" }} icon={faArrowDown} />
 
                         </div>
-
-                    
-
-                        
                         <Transition
                             as={Fragment}
                             enter="transition ease-out duration-100"
@@ -70,7 +66,7 @@ function Navbar() {
                                     <a
                                         href="#"
                                         className='block px-4 py-2 text-sm text-gray-700'
-                                      
+
                                     >
                                         Settings
                                     </a>

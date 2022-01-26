@@ -1,21 +1,34 @@
-import react from 'react'
-import { faSun , faMoon} from '@fortawesome/free-solid-svg-icons'
+import { faSun, faMoon } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { useState } from 'react';
 
 function Toogle() {
-    return (
+    const [toggle, setToggle] = useState(true);
+    const toggleClass = ' transform translate-x-5';
 
-        <div style={{height:"60px"}} class="flex justify-center items-center ">
+    return (
+        <div style={{ height: "60px" }} className="flex justify-center items-center ">
             <div>
-                <FontAwesomeIcon style={{ color: "#0000ffa3" , marginRight:"50px" }} icon={faSun} />
+                <FontAwesomeIcon style={{ color: "#0000ffa3", marginRight: "10px" }} icon={faSun} />
             </div>
-            <div class="mr-2">
-                <div class="form-check form-switch">
-                    <input class="form-check-input appearance-none w-9 -ml-10 rounded-full float-left h-5 align-top bg-white bg-no-repeat bg-contain bg-gray-300 focus:outline-none cursor-pointer shadow-sm" type="checkbox" role="switch" id="flexSwitchCheckDefault" />
+            <div className="mr-2">
+                <div
+                    className="md:w-14 md:h-7 w-12 h-6 flex items-center bg-gray-300 rounded-full p-1 cursor-pointer"
+                    onClick={() => {
+                        setToggle(!toggle);
+                    }}
+                >
+
+                    {/* Switch */}
+                    <div
+                        className={"bg-white md:w-6 md:h-6 h-5 w-5 rounded-full shadow-md transform" + (toggle ? null : toggleClass)}
+                    >
+                    </div>
+
                 </div>
             </div>
             <div>
-                <FontAwesomeIcon style={{ color: "#0000ffa3"}} icon={faMoon} />
+                <FontAwesomeIcon style={{ color: "#0000ffa3" }} icon={faMoon} />
             </div>
         </div>
     );
