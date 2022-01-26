@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.4091ea68.css",
-    "main.js": "/my-app/static/js/main.5b155d2a.js",
+    "main.css": "/my-app/static/css/main.5d613eef.css",
+    "main.js": "/my-app/static/js/main.d60ac570.js",
     "static/js/787.28cb0dcd.chunk.js": "/my-app/static/js/787.28cb0dcd.chunk.js",
     "static/media/logo.png": "/my-app/static/media/logo.611a21d0adf318ec8992.png",
+    "static/media/furniture.png": "/my-app/static/media/furniture.3cf536ac89e5aab16966.png",
     "static/media/travel.jpg": "/my-app/static/media/travel.35c15e11d42f9959da98.jpg",
     "static/media/banner1.png": "/my-app/static/media/banner1.31d0b60491fb2fdf2bdc.png",
     "static/media/banner2.jpg": "/my-app/static/media/banner2.8c6e27cf0503bf87a6ed.jpg",
     "static/media/bitcoin.jpg": "/my-app/static/media/bitcoin.79f93aae9c6917f6b9fe.jpg",
     "static/media/professor.jpg": "/my-app/static/media/professor.70fd82b29b5302a95557.jpg",
     "index.html": "/my-app/index.html",
-    "main.4091ea68.css.map": "/my-app/static/css/main.4091ea68.css.map",
-    "main.5b155d2a.js.map": "/my-app/static/js/main.5b155d2a.js.map",
+    "main.5d613eef.css.map": "/my-app/static/css/main.5d613eef.css.map",
+    "main.d60ac570.js.map": "/my-app/static/js/main.d60ac570.js.map",
     "787.28cb0dcd.chunk.js.map": "/my-app/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4091ea68.css",
-    "static/js/main.5b155d2a.js"
+    "static/css/main.5d613eef.css",
+    "static/js/main.d60ac570.js"
   ]
 }
