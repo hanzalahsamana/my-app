@@ -1,6 +1,6 @@
 import bitcoin from '../../assets/bitcoin.jpg'
 import professor from '../../assets/professor.jpg'
-
+import style from './index.module.css'
 function Cards() {
     return (
         <div style={{ height: "250px", maxHeight: "250px" }} className="w-4/5  absolute top-48 ">
@@ -18,12 +18,12 @@ function Cards() {
                     </div>
                 </div>
                 <div style={{height:"fit-content", width: "100%" }} className='bg-white flex-wrap	justify-center items=center rounded-b-xl flex-row flex'>
-                    <p className='text-blue-500  text-sm' style={{ padding: "4px" }}><span className='text-blue-700  font-bold'>5k</span> Posts</p>
-                    <p className='text-blue-500 text-sm ' style={{ padding: "4px" }}><span className='text-blue-700  font-bold'>500k</span> Videos</p>
-                    <p className='text-blue-500 text-sm' style={{ padding: "4px" }}><span className='text-blue-700 font-bold'>40k</span> Books</p>
-                    <p className='text-blue-500 text-sm' style={{ padding: "4px" }}><span className='text-blue-700 font-bold'>2k</span> Ideas</p>
-                    <p className='text-blue-500 text-sm' style={{ padding: "4px" }}><span className='text-blue-700  font-bold'>126k</span> Instruction</p>
-                    <p className='text-blue-500 text-sm' style={{ padding: "4px" }}><span className='text-blue-700 font-bold'>625k</span> Podcast</p>
+                    <p className={style.subClassText} style={{ padding: "4px" }}><span className={style.subClassNum}>5k</span> Posts</p>
+                    <p className={style.subClassText} style={{ padding: "4px" }}><span className={style.subClassNum}>500k</span> Videos</p>
+                    <p className={style.subClassText} style={{ padding: "4px" }}><span className={style.subClassNum}>40k</span> Books</p>
+                    <p className={style.subClassText} style={{ padding: "4px" }}><span className={style.subClassNum}>2k</span> Ideas</p>
+                    <p className={style.subClassText} style={{ padding: "4px" }}><span className={style.subClassNum}>126k</span> Instruction</p>
+                    <p className={style.subClassText} style={{ padding: "4px" }}><span className={style.subClassNum}>625k</span> Podcast</p>
                 </div>
             </div>
         </div>

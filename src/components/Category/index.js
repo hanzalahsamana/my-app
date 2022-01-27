@@ -1,7 +1,9 @@
 import { faCheckSquare, faChevronDown } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import style from './index.module.css'
 
 function Category() {
+   
     return (
         <div style={{ height: "270px" }} >
             <div className='w-full h-full flex flex-col border-b border-gray-300 border-solid justify-center'>
@@ -9,46 +11,39 @@ function Category() {
                     <p className="text-white font-bold">Category</p>
                     <FontAwesomeIcon style={{ color: "white" }} icon={faChevronDown} />
                 </div>
-                <div style={{height:"fit-content"}} class="flex items-center py-5 justify-center ">
+                <div style={{ height: "fit-content" }} class="flex items-center py-5 justify-center ">
 
                     <div class="flex flex-wrap items-center justify-center space-x-1">
-                        <span
-                            class="px-2 py-1 rounded-full m-1 text-gray-100 bg-blue-500 font-semibold text-sm flex align-center w-max cursor-pointer active:bg-gray-300 transition duration-300 ease">
+                    <span className={`${style.subClassTag} bg-blue-700 text-white`}>
                             Bitcoin
                         </span>
-                        <span
-                            class="px-2 py-1 rounded-full m-1 text-blue-500 bg-gray-100 font-semibold text-sm flex align-center w-max cursor-pointer active:bg-gray-300 transition duration-300 ease">
+                        <span className={`${style.subClassTag} ${style.subClassColor}`}>
                             Crypto
                         </span>
-                        <span
-                            class="px-2 py-1 rounded-full  m-1 text-blue-500 bg-gray-100 font-semibold text-sm flex align-center w-max cursor-pointer active:bg-gray-300 transition duration-300 ease">
+                        <span className={`${style.subClassTag} ${style.subClassColor}`}>
                             Blockchain
                         </span>
-                        <span
-                            class="px-2 py-1 rounded-full  m-1 text-blue-500 bg-gray-100 font-semibold text-sm flex align-center w-max cursor-pointer active:bg-gray-300 transition duration-300 ease">
+                        <span className={`${style.subClassTag} ${style.subClassColor}`}>
                             Market
                         </span>
                         <span
-                            class="px-2 py-1 rounded-full m-1 text-blue-500 bg-gray-100 font-semibold text-sm flex align-center w-max cursor-pointer active:bg-gray-300 transition duration-300 ease">
+                            className={`${style.subClassTag} ${style.subClassColor}`}>
                             Politic
                         </span>
-                        <span
-                            class="px-2 py-1 rounded-full m-1 text-blue-500 bg-gray-100 font-semibold text-sm flex align-center w-max cursor-pointer active:bg-gray-300 transition duration-300 ease">
+                        <span className={`${style.subClassTag} ${style.subClassColor}`}>
                             Staking
                         </span>
-                        <span
-                            class="px-2 py-1 rounded-full m-1 text-blue-500 bg-gray-100 font-semibold text-sm flex align-center w-max cursor-pointer active:bg-gray-300 transition duration-300 ease">
+                        <span className={`${style.subClassTag} ${style.subClassColor}`}>
                             DEX
                         </span>
-                        <span
-                            class="px-2 py-1 rounded-full m-1 text-blue-500 bg-gray-100 font-semibold text-sm flex align-center w-max cursor-pointer active:bg-gray-300 transition duration-300 ease">
+                        <span className={`${style.subClassTag} ${style.subClassColor}`}>
                             Ecosystem
                         </span>
                     </div>
                 </div>
                 <div class=" h-12 flex items-center justify-start p-3 ">
                     <FontAwesomeIcon style={{ color: "blue" }} icon={faCheckSquare} className='mr-2' />
-                     <p className='text-blue-500 underline decoration-1'>Select all categories</p>
+                    <p className='text-blue-500 underline decoration-1'>Select all categories</p>
                 </div>
             </div>
         </div>

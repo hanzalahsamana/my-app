@@ -1,5 +1,6 @@
 import { faAlignJustify } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import style from './index.module.css'
 
 function RecentTopic() {
     const List = [
@@ -160,7 +161,7 @@ function RecentTopic() {
                             <nav aria-label="Page navigation example">
                                 <ul class="flex list-style-none">
                                     <li class="page-item h-full"><a
-                                        class="page-link relative block py-1 px-3 rounded border-0 bg-transparent outline-none transition-all duration-300 rounded text-blue-800 hover:text-gray-800 focus:shadow-none"
+                                        class={style.TopicTag}
                                         href="#" aria-label="Previous">
                                         <span aria-hidden="true">&laquo;</span>
                                     </a></li>
@@ -168,7 +169,7 @@ function RecentTopic() {
                                         class="page-link relative block py-1 px-3 rounded border-0 bg-gray-100 outline-none transition-all duration-300 rounded font-bold text-blue-800 hover:text-gray-800 hover:bg-gray-200 focus:shadow-none"
                                         href="#">1 of 16</a></li>
                                     <li class="page-item"><a
-                                        class="page-link relative block py-1 px-3 rounded border-0 bg-transparent outline-none transition-all duration-300 rounded text-blue-800 hover:text-gray-800 focus:shadow-none"
+                                        class={style.TopicTag}
                                         href="#" aria-label="Next">
                                         <span aria-hidden="true">&raquo;</span>
                                     </a></li>

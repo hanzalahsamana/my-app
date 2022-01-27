@@ -1,0 +1,7 @@
+.subClassText {
+   @apply text-blue-700 text-sm
+}
+
+.subClassNum {
+    @apply text-blue-700  font-bold
+}

@@ -1,0 +1,7 @@
+.subClass {
+    @apply mr-2 w-4/5 h-1/5 text-blue-700
+}
+
+.subClassText {
+    @apply text-blue-500 text-sm
+}

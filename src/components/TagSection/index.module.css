@@ -1,0 +1,7 @@
+.bgColor{
+    @apply bg-gray-100
+}
+
+.textColor{
+    @apply text-blue-500
+}
