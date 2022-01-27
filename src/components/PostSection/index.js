@@ -1,16 +1,14 @@
-import Post from '../Post/post';
-import PostFilter from '../PostFilter/postFilter';
+import Post from '../Post';
+import PostFilter from '../PostFilter';
 
 
 function PostSection() {
     return (
-
         <div >
             <PostFilter />
             <Post />
             <Post />
             <Post />
-
         </div>
 
     );

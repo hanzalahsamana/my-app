@@ -1,6 +1,6 @@
-import FirstHalf from '../../components/FirstHalf/firstHalf';
-import Footer from '../../components/footer/footer';
-import SecondHalf from '../../components/SecondHalf/secondhalf';
+import FirstHalf from '../../components/FirstHalf';
+import Footer from '../../components/Footer';
+import SecondHalf from '../../components/SecondHalf';
 
 
 function HomePage() {

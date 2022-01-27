@@ -1,8 +1,8 @@
 
 function Pagination() {
     return (
-        <div style={{ height: "60px" }} className=' flex justify-center 	items-center  '>
-            <div className='w-4/5 	h-4/5 flex justify-center'>
+        <div style={{ height: "60px" }} className='flex justify-center items-center'>
+            <div className='w-4/5 h-4/5 flex justify-center'>
                 <div class="flex justify-center">
                     <nav aria-label="Page navigation example">
                         <ul class="flex list-style-none text-lg	">

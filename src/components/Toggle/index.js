@@ -4,10 +4,10 @@ import { useState } from 'react';
 
 function Toogle() {
     const [toggle, setToggle] = useState(true);
-    const toggleClass = ' transform translate-x-5';
+    const toggleClass = 'transform translate-x-5';
 
     return (
-        <div style={{ height: "60px" }} className="flex justify-center items-center ">
+        <div style={{ height: "60px" }} className="flex justify-center items-center">
             <div>
                 <FontAwesomeIcon style={{ color: "#0000ffa3", marginRight: "10px" }} icon={faSun} />
             </div>

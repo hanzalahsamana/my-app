@@ -1,9 +1,9 @@
 import { faBookOpen, faBriefcase, faHome, faLifeRing, faLightbulb, faMicrophone, faRecycle, faSeedling, faVideo } from '@fortawesome/free-solid-svg-icons';
-import Tags from '../Tags/tags';
+import Tags from '../Tags';
 
 function TagSection() {
   return (
-    <div class="h-full mb-2 pb-2 border-b border-gray-300 border-solid">
+    <div class="h-full  mb-2 pb-2 border-b border-gray-300 border-solid">
       <Tags text="Home" bgColor="bg-blue-500" icon={faHome} color="text-slate-50	" />
       <Tags text="myBook" bgColor="bg-gray-100" icon={faBookOpen} iconColor="text-blue-500" />
       <Tags text="myVid" bgColor="bg-gray-100" icon={faVideo} iconColor="text-blue-500" />

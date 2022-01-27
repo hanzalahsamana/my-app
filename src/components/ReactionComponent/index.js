@@ -4,7 +4,7 @@ import { faBookmark, faEllipsisH, faEye, faFrown, faLocationArrow, faSmile } fro
 
 function ReactionCompnent() {
     return (
-        <div className="flex justify-center	w-full h-20	 ">
+        <div className="flex justify-center	w-full h-20">
             <div className="flex  items-center justify-between w-4/5">
                 <div className="flex items-center">
                     <div className="flex items-center mr-5">

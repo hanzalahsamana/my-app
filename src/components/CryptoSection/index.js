@@ -5,17 +5,17 @@ import { Menu, Transition } from '@headlessui/react'
 
 function CryptoSection() {
     return (
-        <div style={{ height: "130px" }} className=' flex justify-center 	items-center  '>
-            <div className='w-4/5 	h-4/5 flex flex-col items-center justify-around bg-blue-700 rounded-xl	'>
+        <div style={{ height: "130px" }} className='flex justify-center items-center '>
+            <div className='w-4/5 h-4/5 flex flex-col items-center justify-around bg-blue-700 rounded-xl'>
                 <div style={{width:"90%"}} className="flex justify-between items-center">
                     <div className="flex">
                         <span class="flex items-center left-4 ">  <FontAwesomeIcon style={{ color: "white", marginRight: "10px" }} icon={faFolder} /> </span>
-                        <p className='font-bold	text-white	text-xl'>Crypto Winter's</p>
+                        <p className='font-bold	text-white text-xl'>Crypto Winter's</p>
                     </div>
                     <div>
                         <Menu as="div" className="ml-3 relative">
                             <div className='flex rounded-full justify-around items-center '>
-                                <Menu.Button className="flex text-sm justify-around rounded-full focus:outline-none  ">
+                                <Menu.Button className="flex text-sm justify-around rounded-full focus:outline-none ">
                                     <span className="sr-only">Open post menu</span>
                                     <FontAwesomeIcon style={{ color: "white" }} icon={faEllipsisH} />
                                 </Menu.Button>
@@ -61,9 +61,9 @@ function CryptoSection() {
                     </div>
                 </div>
                 <div className='flex items-center justify-start	w-4/5'>
-                    <p className='mr-2 	text-white'>#Bitcoin</p>
+                    <p className='mr-2 text-white'>#Bitcoin</p>
                     <span
-                        class="px-1  rounded-full border bg-white border-gray-300 text-blue-200 font-semibold text-sm flex align-center w-max cursor-pointer">
+                        class="px-1 rounded-full border bg-white border-gray-300 text-blue-200 font-semibold text-sm flex align-center w-max cursor-pointer">
                         1253 Posts
                     </span>
                 </div>
