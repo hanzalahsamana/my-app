@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.5d613eef.css",
-    "main.js": "/my-app/static/js/main.d60ac570.js",
+    "main.css": "/my-app/static/css/main.796ad14d.css",
+    "main.js": "/my-app/static/js/main.c5377eff.js",
     "static/js/787.28cb0dcd.chunk.js": "/my-app/static/js/787.28cb0dcd.chunk.js",
     "static/media/logo.png": "/my-app/static/media/logo.611a21d0adf318ec8992.png",
     "static/media/furniture.png": "/my-app/static/media/furniture.3cf536ac89e5aab16966.png",
@@ -11,12 +11,12 @@
     "static/media/bitcoin.jpg": "/my-app/static/media/bitcoin.79f93aae9c6917f6b9fe.jpg",
     "static/media/professor.jpg": "/my-app/static/media/professor.70fd82b29b5302a95557.jpg",
     "index.html": "/my-app/index.html",
-    "main.5d613eef.css.map": "/my-app/static/css/main.5d613eef.css.map",
-    "main.d60ac570.js.map": "/my-app/static/js/main.d60ac570.js.map",
+    "main.796ad14d.css.map": "/my-app/static/css/main.796ad14d.css.map",
+    "main.c5377eff.js.map": "/my-app/static/js/main.c5377eff.js.map",
     "787.28cb0dcd.chunk.js.map": "/my-app/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5d613eef.css",
-    "static/js/main.d60ac570.js"
+    "static/css/main.796ad14d.css",
+    "static/js/main.c5377eff.js"
   ]
 }
